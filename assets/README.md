@@ -12,3 +12,7 @@
 - `yejji-hanwon-burger-meal-v1.png`: 피크닉 테이블에서 수제 햄버거·감자튀김·음료를 즐기는 두 사람의 투명 장면입니다.
 - `miyakojima-runway-sunset-v1.png`: 바다 옆 활주로 진입로와 접근등, 노을이 비치는 젖은 산책로를 담은 16:9 배경입니다.
 - `yejji-hanwon-runway-walk-v1.png`: 사진 속 파란 꽃무늬 원피스의 예찌와 리넨 셔츠 차림 한원의 노을 산책 2×2 투명 캐릭터 시트입니다.
+- `bali-bamboo-dawn-v1.png`, `bali-infinity-pool-v1.png`, `bali-cliff-dinner-v1.png`, `bali-sunset-lawn-v1.png`: 2026년 3월 19~22일 발리의 날짜별 16:9 배경입니다.
+- `yejji-hanwon-bali-arrival-v1.png`, `yejji-hanwon-bali-poolside-v2.png`, `yejji-hanwon-bali-cliff-dinner-v1.png`, `yejji-hanwon-bali-sunset-v1.png`: 발리 날짜별 투명 커플 오버레이입니다.
+- `cherry-riverside-park-v1.png`, `yejji-hanwon-cherry-family-v1.png`: 4월 벚꽃 공원 배경과 반려견을 안은 가족 오버레이입니다.
+- `hongcheon-art-gallery-v1.png`, `yejji-hanwon-hongcheon-gallery-v2.png`: 6월 홍천 갤러리 배경과 반려견을 동반한 가족 오버레이입니다.
