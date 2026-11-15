@@ -39,10 +39,10 @@
   <header class="top"><div><p class="eyebrow">YEJJI & HANWON'S TRAVEL LOG</p><h1 id="page-title">1월 상하이에서, 예찌</h1></div><a class="back" href="#shanghai">← 여행 홈</a></header>
   <nav class="destinations" role="tablist" aria-label="여행지 선택">
     <a class="tab" id="tab-shanghai" role="tab" aria-controls="panel-shanghai" aria-selected="true" href="#shanghai">🌃 1월 상하이</a>
-    <a class="tab" id="tab-miyakojima" role="tab" aria-controls="panel-miyakojima" aria-selected="false" href="#miyakojima">🐠 미야코지마</a>
     <a class="tab" id="tab-bali" role="tab" aria-controls="panel-bali" aria-selected="false" href="#bali">🌴 3월 발리</a>
     <a class="tab" id="tab-cherry" role="tab" aria-controls="panel-cherry" aria-selected="false" href="#cherry">🌸 4월 벚꽃</a>
     <a class="tab" id="tab-hongcheon" role="tab" aria-controls="panel-hongcheon" aria-selected="false" href="#hongcheon">🎨 6월 홍천</a>
+    <a class="tab" id="tab-miyakojima" role="tab" aria-controls="panel-miyakojima" aria-selected="false" href="#miyakojima">🐠 9월 미야코지마</a>
   </nav>
   <section class="panel" id="panel-shanghai" role="tabpanel" aria-labelledby="tab-shanghai">
     <div class="scene shanghai" id="shanghai-scene" aria-label="동방명주와 황푸강 야경을 배경으로 예찌가 관광하는 2D 화면"><div class="caption"><b>Shanghai · The Bund</b><span>황푸강 너머 반짝이는 동방명주를 바라보는 저녁</span></div><div class="yejji-shanghai right bob" id="shanghai-yejji" data-outfit="winter" role="img" aria-label="아이보리 코트를 입고 상하이를 관광하는 예찌"></div><div class="flash" id="flash"></div></div>
@@ -68,7 +68,7 @@
   </section>
 </main>
 <script>
-const destinations={shanghai:{title:'1월 상하이에서, 예찌'},miyakojima:{title:'미야코지마에서, 예찌 & 한원'},bali:{title:'3월 발리에서, 예찌 & 한원'},cherry:{title:'4월 벚꽃 아래, 예찌 & 한원'},hongcheon:{title:'6월 홍천에서, 예찌 & 한원'}};
+const destinations={shanghai:{title:'1월 상하이에서, 예찌'},bali:{title:'3월 발리에서, 예찌 & 한원'},cherry:{title:'4월 벚꽃 아래, 예찌 & 한원'},hongcheon:{title:'6월 홍천에서, 예찌 & 한원'},miyakojima:{title:'9월 미야코지마에서, 예찌 & 한원'}};
 function selectDestination(name){if(!destinations[name])name='shanghai';Object.keys(destinations).forEach(key=>{const active=key===name;document.getElementById('tab-'+key).setAttribute('aria-selected',String(active));document.getElementById('panel-'+key).hidden=!active});document.getElementById('page-title').textContent=destinations[name].title;document.title=destinations[name].title+' · Travel Log'}
 addEventListener('hashchange',()=>selectDestination(location.hash.slice(1)));selectDestination(location.hash.slice(1));
 const sy=document.getElementById('shanghai-yejji'),ss=document.getElementById('shanghai-status'),flash=document.getElementById('flash');let stimer=0,sright=false,outfit='winter';
